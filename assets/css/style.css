@@ -418,7 +418,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 500;
   font-family: "Open Sans", sans-serif;
   letter-spacing: 0.5px;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
 }
 
 #hero .btn-contact {
@@ -442,9 +442,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 @media (min-width: 1024px) {
-  #hero {
+  /* #hero {
     background-attachment: fixed;
-  }
+  } */
 }
 
 @media (max-width: 768px) {
@@ -1218,6 +1218,19 @@ section {
 
 .contact .php-email-form button[type="submit"]:hover {
   background: #00805d;
+
+}
+
+.contact .selection {
+  padding-top: 10px;
+}
+
+.contact .option{
+ 
+  width: 100%;
+  color: #818181;
+  border-color: rgb(197, 197, 197);
+  height: 44px;
 }
 
 @-webkit-keyframes animate-loading {
