@@ -9,7 +9,7 @@
   <meta content="" name="description">
   <meta content="" name="keywords">
 
-
+<!-- 
   <script
   src="https://code.jquery.com/jquery-3.3.1.js"
   integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
@@ -20,7 +20,7 @@
   $(function () {
     $("#footer").load("footer.html");    
     $("#header").load("header.html");   
-  })
+  }) -->
 </script>
   <!-- Favicons -->
   <link href="assets/img/logos/she.png" rel="icon">
@@ -45,7 +45,39 @@
 <body>
 
   <!-- ======= Header ======= -->
-  <div id="header"></div>
+  <!-- <div id="header"></div> -->
+  
+  <header id="header" class="fixed-top d-flex align-items-center">
+    <div class="container">
+      <div class="header-container fixed-top d-flex align-items-center justify-content-between">
+        <div class="logo">
+          <a href="index.html"><img src="assets/img/logo.jpg" alt="" class="img-fluid" width=""></a>
+        </div>
+
+        <nav class="nav-menu d-none d-lg-block">
+          <ul>
+            <li class="active"><a href="index.html">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#why-us">Why US</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#team">Team</a></li>
+            
+            <li class="drop-down"><a href="">AIT Collaborations</a>
+              <ul>
+                <li><a href="jntuh.html">JNTUH</a></li>              
+                <li><a href="#">KLU</a></li>
+                <li><a href="nit.html">NIT Warangal</a></li>
+                <li><a href="#">IIT Kanpur</a></li>
+                <li><a href="#">IIT Roorkee</a></li>
+              </ul>
+            </li>
+
+            <li class="contact"><a href="index.html#contact">Contact</a></li>
+          </ul>
+        </nav><!-- .nav-menu -->
+      </div><!-- End Header Container -->
+    </div>
+  </header><!-- End Header -->
 
   <!-- ======= Hero Section ======= -->
   <section id="hero" class="d-flex align-items-center">
@@ -482,7 +514,72 @@
   </main>
   <!-- End #main -->
 
-  <div id="footer"></div>
+  <!-- <div id="footer"></div> -->
+
+   <!-- ======= Footer ======= -->
+   <footer id="footer">
+
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-4 col-md-6 footer-contact">
+            <h3>She Foundation</h3>
+            <p>
+              5th Floor <br>
+              R K Plaza, Saboo Building<br>
+              Beside HDFC Bank, Himaythnagar <br><br>
+              <strong>Phone:</strong> +91 958 149 4444<br>
+              <strong>Email:</strong> shefoundationaithyd@gmail.com<br>
+            </p>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="index.html">Home</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="index.html#about">About us</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="index.html#services">Services</a></li>
+              <!-- <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li> -->
+              <!-- <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li> -->
+            </ul>
+          </div>
+
+          <div class="col-lg-2 col-md-6 footer-links">
+            <h4>Our Services</h4>
+            <ul>
+              <li><i class="bx bx-chevron-right"></i> <a href="index.html#services">Master Degree</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="index.html#services">MBA</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="index.html#services">PhD</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="index.html#services">MBBS</a></li>
+              <!-- <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li> -->
+            </ul>
+          </div>
+          <div class="col-lg-3 col-md-6 footer-links">
+          <div class="social-links text-center text-md-right pt-3 pt-md-0">
+            <!-- <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a> -->
+            <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+            <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+            <a href="#" class="website"><i class="bx bx-world"></i></a>
+            <!-- <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a> -->
+            <!-- <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a> -->
+          </div></div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container d-md-flex py-4">
+
+      <div class="me-md-auto text-center text-md-start">
+        <div class="copyright">
+          &copy; Copyright <strong><span>SHE Foundation</span></strong>
+        </div>
+       
+      </div>
+      
+    </div>
+  </footer><!-- End Footer -->
 
   <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
 
