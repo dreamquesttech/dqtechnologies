@@ -435,12 +435,12 @@ h1, h2, h3, h4, h5, h6 {
   border: 2px solid #ee7a29;
 }
 
-@media (min-width: 1024px) {
-  /* #hero {
+/* @media (min-width: 1024px) {
+  #hero {
     background-attachment: fixed;
-  } */
-}
-
+  }
+} */
+/* 
 @media (max-width: 768px) {
   #hero {
     height: 100vh;
@@ -451,6 +451,13 @@ h1, h2, h3, h4, h5, h6 {
   #hero h1 {
     font-size: 32px;
     line-height: 36px;
+  }
+} */
+
+@media (max-width: 768px) {
+
+  .hero {
+    display: none;
   }
 }
 
@@ -525,6 +532,7 @@ section {
   .clients {
     display: none;
   }
+  
 }
 
 
@@ -1599,12 +1607,27 @@ section {
 /* ============================== */
 
 
+
+
+
+
+
+
+
+
+
 table{
   margin-left: auto;
   margin-right: auto;
 }
 table, th, td {
   border: 1px dotted #ee7a29;
+}
+table thead tr th {
+text-align: center;
+}
+.top td{
+  font: italic;
 }
 td {
   padding: 5px;
@@ -1642,6 +1665,14 @@ td {
 
   text-align:center;
   vertical-align:middle
+}
+.tg .tg-baqh{
+  text-align:center;
+  vertical-align: center
+}
+.tg .tg-0lax{
+  text-align:left;
+  vertical-align:center
 }
 /* ==========Contact US ============== */
 
