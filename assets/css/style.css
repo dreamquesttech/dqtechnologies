@@ -490,7 +490,7 @@ section {
   font-weight: bold;
   text-transform: uppercase;
   margin-bottom: 20px;
-  padding-bottom: 20px;
+  /* padding-bottom: 20px; */
   position: relative;
 }
 
@@ -1766,4 +1766,18 @@ td {
     flex: 100%;
     max-width: 100%;
   }
+}
+
+
+
+
+
+/* =========================== */
+
+
+.bene img{
+  margin-left: 10%;
+  margin-right: 10%;
+  max-width: 100%;
+
 }
