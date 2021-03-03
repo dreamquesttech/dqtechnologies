@@ -586,6 +586,19 @@ section {
   margin-bottom: 20px;
 }
 
+.sheimg {
+  margin-top: 50px;
+  text-align: center;
+}
+
+@media (max-width: 995px) {
+
+  .sheimg{
+    display: none;
+  }
+  }
+
+
 /*--------------------------------------------------------------
 # Counts
 --------------------------------------------------------------*/
